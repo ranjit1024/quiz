@@ -43,6 +43,9 @@
     background-color: #ffffff;
     box-shadow: rgba(0,0,0,0,24) 0px 3px 8px;
 }
+.hide{
+    display: none;
+}
 
 .result p:first-child{
     padding: 10px 20px;
@@ -60,3 +63,48 @@
         cursor: pointer;
     }
 } 
+
+.qustion{
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 10px auto 10px auto;
+    padding: 25px;
+    min-width: 300px;
+    max-width: 900px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.qustion > *{
+    font-size: 18px;
+}
+
+.option{
+    margin-left: 10px;    
+}
+
+.correct{
+    background-color: #c8ffdf;
+}
+
+.wrong{
+    background-color: #ffd1d1;
+}
+
+#submit{
+   text-align: center;
+   
+}
+#submit input{
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    border:none;
+    background-color: darkorange;
+    color:white;
+    margin-top: 16px;
+    &:hover{
+        background-color: orange;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+    }
+}
